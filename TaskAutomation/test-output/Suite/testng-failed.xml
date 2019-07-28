@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="checkTest(failed)" parallel="methods">
+    <classes>
+      <class name="Tests.UserRegisterationTestDataDrivenJavaFake">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="init"/>
+          <include name="registerUserSuccessfully" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.UserRegisterationTestDataDrivenJavaFake -->
+      <class name="Tests.UserRegisterationTestDataDrivenCSV">
+        <methods>
+          <include name="registerUserSuccessfully"/>
+          <include name="closeDriver"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Tests.UserRegisterationTestDataDrivenCSV -->
+    </classes>
+  </test> <!-- checkTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

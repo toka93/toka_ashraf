@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Commerce" parallel="false">
+<parameter name = "browser" value="Chrome" > </parameter>
+  <test name="Test">
+    <classes>
+      <class name="Tests.UserRegisterationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

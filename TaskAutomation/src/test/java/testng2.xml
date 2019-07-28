@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="true" preserve-order="false">
+  <test name="AutomationTask">
+    <classes>   
+      <class name="Tests.Login"/>
+      <class name="Tests.UserRegister"/>
+      <class name="Tests.SearchProductCSV"/>
+      <class name="Tests.SearchAndView"/>
+            <class name="Tests.BuyProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

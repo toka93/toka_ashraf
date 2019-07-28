@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Application Launch]]>
+    </line>
+    <line>
+      <![CDATA[Search for specific product]]>
+    </line>
+    <line>
+      <![CDATA[click on product Quick View]]>
+    </line>
+    <line>
+      <![CDATA[Add Product to cart]]>
+    </line>
+    <line>
+      <![CDATA[Start Order product process]]>
+    </line>
+    <line>
+      <![CDATA[Product is succesfully deleted]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33929" started-at="2018-09-23T21:25:13Z" finished-at="2018-09-23T21:25:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33929" started-at="2018-09-23T21:25:13Z" finished-at="2018-09-23T21:25:47Z">
+      <class name="Tests.DeleteProduct">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:Tests.DeleteProduct@7d9d1a19]" name="init" is-config="true" duration-ms="15718" started-at="2018-09-23T21:25:13Z" finished-at="2018-09-23T21:25:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="DeleteProduct()[pri:0, instance:Tests.DeleteProduct@7d9d1a19]" name="DeleteProduct" duration-ms="16679" started-at="2018-09-23T21:25:29Z" finished-at="2018-09-23T21:25:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Launch]]>
+            </line>
+            <line>
+              <![CDATA[Search for specific product]]>
+            </line>
+            <line>
+              <![CDATA[click on product Quick View]]>
+            </line>
+            <line>
+              <![CDATA[Add Product to cart]]>
+            </line>
+            <line>
+              <![CDATA[Start Order product process]]>
+            </line>
+            <line>
+              <![CDATA[Product is succesfully deleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method status="PASS" signature="takescreenshot(org.testng.ITestResult)[pri:0, instance:Tests.DeleteProduct@7d9d1a19]" name="takescreenshot" is-config="true" duration-ms="465" started-at="2018-09-23T21:25:46Z" finished-at="2018-09-23T21:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteProduct status=SUCCESS method=DeleteProduct.DeleteProduct()[pri:0, instance:Tests.DeleteProduct@7d9d1a19] output=Application Launch]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshot -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.DeleteProduct@7d9d1a19]" name="close" is-config="true" duration-ms="1005" started-at="2018-09-23T21:25:46Z" finished-at="2018-09-23T21:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Tests.DeleteProduct@7d9d1a19]" name="closeDriver" is-config="true" duration-ms="0" started-at="2018-09-23T21:25:47Z" depends-on-methods="Tests.DeleteProduct.close" finished-at="2018-09-23T21:25:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Tests.DeleteProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
